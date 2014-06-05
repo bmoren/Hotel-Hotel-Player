@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,132 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-51",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 247.5, 414.58551, 74.0, 33.0 ],
+					"text" : "which room changed?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 247.5, 392.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-47",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 716.409058, 163.0, 102.0, 33.0 ],
+					"text" : "when is the next metro banging?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 428.5, 163.0, 34.0, 20.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-40",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 779.0, 121.0, 150.0, 33.0 ],
+					"text" : "generate a number between 1000 and 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 666.409058, 163.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 666.409058, 131.0, 48.0, 20.0 ],
+					"text" : "+ 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 666.409058, 59.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 666.409058, 101.0, 81.0, 20.0 ],
+					"text" : "random 4000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -91,7 +217,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 90.0, 72.0, 20.0 ],
-					"presentation_rect" : [ 36.5, 90.0, 0.0, 0.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -124,7 +249,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -720,7 +845,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1388,7 +1513,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2012,20 +2137,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 428.5, 165.0, 46.0, 20.0 ],
-					"text" : "uzi 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2106,7 +2217,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2601,7 +2712,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3198,7 +3309,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3694,7 +3805,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4190,7 +4301,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4685,7 +4796,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4734,7 +4845,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4896,7 +5007,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 98.5, 178.471497, 100.0, 17.0 ],
 													"pattrmode" : 1,
-													"prefix" : "yup:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
+													"prefix" : "Macintosh HD:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
 													"showdotfiles" : 1
 												}
 
@@ -5165,7 +5276,6 @@
 									}
 ,
 									"patching_rect" : [ 133.0, 176.0, 93.0, 20.0 ],
-									"presentation_rect" : [ 131.5, 176.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5197,7 +5307,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -5359,7 +5469,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 98.5, 178.471497, 100.0, 17.0 ],
 													"pattrmode" : 1,
-													"prefix" : "yup:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
+													"prefix" : "Macintosh HD:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
 													"showdotfiles" : 1
 												}
 
@@ -5628,7 +5738,6 @@
 									}
 ,
 									"patching_rect" : [ 266.5, 176.0, 93.0, 20.0 ],
-									"presentation_rect" : [ 276.5, 179.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5656,7 +5765,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 143.0, 109.0, 44.0, 20.0 ],
-									"presentation_rect" : [ 146.5, 109.0, 0.0, 0.0 ],
 									"text" : "output"
 								}
 
@@ -5671,8 +5779,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 133.0, 130.0, 50.0, 20.0 ],
-									"presentation_rect" : [ 136.5, 130.0, 0.0, 0.0 ]
+									"patching_rect" : [ 133.0, 130.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -5684,8 +5791,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.0, 84.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 136.5, 84.0, 0.0, 0.0 ]
+									"patching_rect" : [ 133.0, 84.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -5699,7 +5805,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 407.5, 125.0, 44.0, 20.0 ],
-									"presentation_rect" : [ 407.5, 126.0, 0.0, 0.0 ],
 									"text" : "output"
 								}
 
@@ -5728,7 +5833,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 276.5, 125.0, 44.0, 20.0 ],
-									"presentation_rect" : [ 313.5, 132.0, 0.0, 0.0 ],
 									"text" : "output"
 								}
 
@@ -5743,8 +5847,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 266.5, 146.0, 50.0, 20.0 ],
-									"presentation_rect" : [ 263.5, 132.0, 0.0, 0.0 ]
+									"patching_rect" : [ 266.5, 146.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -5756,8 +5859,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 266.5, 100.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 246.5, 97.0, 0.0, 0.0 ]
+									"patching_rect" : [ 266.5, 100.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -5775,7 +5877,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -5937,7 +6039,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 98.5, 178.471497, 100.0, 17.0 ],
 													"pattrmode" : 1,
-													"prefix" : "yup:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
+													"prefix" : "Macintosh HD:/Users/bmoren/Desktop/HotelHotel/audiofiles/",
 													"showdotfiles" : 1
 												}
 
@@ -7012,7 +7114,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -7546,6 +7648,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7577,6 +7688,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -7618,6 +7738,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7631,6 +7769,25 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 438.0, 192.0, 556.954529, 192.0, 556.954529, 91.0, 675.909058, 91.0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 1 ]
 				}
 
 			}
@@ -7807,19 +7964,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-91", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-92", 0 ]
 				}
 
 			}
@@ -7856,6 +8004,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-95", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-96", 0 ]
 				}
 
 			}
