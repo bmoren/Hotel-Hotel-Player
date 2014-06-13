@@ -1,0 +1,12 @@
+<window x="100" y="100" width="1024" height="768" rows="3" cols="2" videoDisplayWidth="256" videoDisplayHeight="192" disableRendering="0" showStats="1"/>
+<logger level="VERBOSE"/>
+<streams>
+	<stream address="http://192.168.1.202:81/videostream.cgi" name="ipcam1" username="admin" password="powerful" display="1"/> 
+	<stream address="http://192.168.1.203:81/videostream.cgi" name="ipcam2" username="admin" password="powerful" display="1"/> 
+	<stream address="http://192.168.1.200:81/videostream.cgi" name="ipcam3" username="admin" password="powerful" display="1"/> 
+	<stream address="http://192.168.1.206:81/videostream.cgi" name="ipcam4" username="admin" password="powerful" display="1"/> 
+	<stream address="http://192.168.1.207:81/videostream.cgi" name="ipcam5" username="admin" password="powerful" display="1"/> 
+	<stream address="http://192.168.1.201:81/videostream.cgi" name="ipcam6" username="admin" password="powerful" display="1"/> 
+
+	
+</streams>
